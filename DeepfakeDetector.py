@@ -69,10 +69,6 @@ print(np.shape(Y_test))
 use_last_model = False
 
 
-
-
-
-
 shape, classes = (IMG_SIZE, IMG_SIZE, 1), 2
 x = keras.layers.Input(shape)
 model = keras_resnet.models.ResNet2D18(x, classes=classes)
